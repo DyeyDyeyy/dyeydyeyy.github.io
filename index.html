@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>J</span>oshua <span>J</span>ay <span>M</span>analo</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, I'm <span></span></h1>
+        <h1>Joshua <span></span></h1>
+        <h1>Software Developer <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Hero Section  -->
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Lokamatika</h1>
+            <p>A mobile application offering two-way location sharing and automated emergency response systems. 
+              Developed using Dart, Flutter, Android Studio, Visual Studio, and Git Graph. 
+              GitHub was employed for version control.</p>
+          </div>
+          <a href="https://www.youtube.com/watch?v=-myX3EzybME" target="_black">
+          <div class="project-img">         
+            <img src="./img/mylokamatika.png" alt="img">
+          </div>
+           </a>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Kumares Cafe Management System</h1>
+            <p>Developed a web-based inventory and POS system using PHP, MySQL, 
+              and XAMPP for MCS 304 ystem Analysis Design.Manages product information,
+               stock levels, sales transactions, and generates reports.</p>
+          </div>
+          <div class="project-img">
+            <img id="myImg" src="./img/mykumarescafe.png" alt=" " style="width:100%;max-width:300px">
+            <img src="./img/mykumarescafe.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Horror Sneaky Game</h1>
+            <p>Created a horror-themed stealth game using Unity and C#. 
+              Implemented core gameplay mechanics, atmosphere, and enemy AI. 
+              Emphasized stealth, puzzle-solving, and environmental interaction.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/myhorrorsneaky.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Ping Pong Game</h1>
+            <p>Developed in Java for MCS 203 Computer Programming III, 
+              this project simulates a two-player ping pong match. 
+              Features simultaneous paddle control, ball physics, and scoring system. 
+              Provides a foundation for multiplayer game development.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/mypingpongz.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>SFO Merchandise <br>Point of Sales</h1>
+            <h2>Coding is Love</h2>
+            <p>Developed as a course requirement for MCS 102 Computer Programming I, 
+              this project is a basic Point of Sale (POS) system tailored for a 
+              outfit merchandise store. Built using Borland Turbo C, the system performs 
+              fundamental POS functions such as product management, sales transactions.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/mypos.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+   <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Software Developer</h2>
+        <p>A graduate of Bachelor of Science in Mathematics with specialization in Computer Science in Bulacan State University. 
+          My academic foundation in logical reasoning and problem-solving has equipped me for a career in computer technology and software engineering. 
+          I am eager to apply my analytical skills to develop innovative solutions. With a strong belief in collaboration, 
+          I thrive in team environments where I can contribute my problem-solving abilities and leadership potential.</p>
+        <a href="#" class="cta">Learn more</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Get in <span>touch</span></h1>
+      </div>
+
+      <div class="social-icon">
+        <div class="social-item">
+            <a href="https://www.facebook.com/jdyeymanalo" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=118501&format=png&color=1A6DFF,C822FF" alt="Facebook"/>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="https://www.linkedin.com/in/joshua-jay-manalo-se/" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=44019&format=png&color=1A6DFF,C822FF" alt="Instagram"/>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="mailto:mmmanalo2006@gmail.com" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=48165&format=png&color=1A6DFF,C822FF" alt="Twitter"/>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="https://github.com/DyeyDyeyy" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=52539&format=png&color=1A6DFF,C822FF" alt="Behance"/>
+            </a>
+        </div>
+    </div>
+
+    <iframe src="https://forms.gle/46JSprQk8kT8xSq67" width="1040" height="829" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  <style>
+    #contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 829px; /* Adjust if needed to match iframe height */
+    }
+  </style>
+  </section>
+  
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>J</span>oshua <span>J</span>ay <span>M</span>analo</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+            <a href="https://www.facebook.com/jdyeymanalo" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=118501&format=png&color=1A6DFF,C822FF" alt="Facebook"/>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="https://www.linkedin.com/in/joshua-jay-manalo-se/" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=44019&format=png&color=1A6DFF,C822FF" alt="Instagram"/>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="mailto:mmmanalo2006@gmail.com" target="_blank">
+                <img src="https://img.icons8.com/?size=64&id=48165&format=png&color=1A6DFF,C822FF" alt="Twitter"/>
+            </a>
+        </div>
+        <div class="social-item">
+            <a href="https://github.com/DyeyDyeyy" target="_blank">
+                <img src="https://img.icons8.com/bubbles/100/000000/behance.png" alt="Behance"/>
+            </a>
+        </div>
+    </div>
+      <p>Copyright © 2024 Joshua. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
